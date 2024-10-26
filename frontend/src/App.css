@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Title Bar */
+.title-bar {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.title-bar h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Form Section */
+.form-section {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-section input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.icon-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.icon {
+  padding: 0 5px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.button-primary {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+  background-color: #357ae8;
+}
+
+/* Table Styles */
+.product-table {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center; /* Center-aligns text in both header and row cells */
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #e9ecef;
+  border-radius: 5px 5px 0 0;
+}
+
+.header-cell {
+  font-weight: bold;
+  text-align: center; /* Center-aligns header cells */
+}
+
+.cell {
+  padding: 5px;
+  text-align: center; /* Center-aligns each product cell */
+}
+
+/* Button Styles */
+.button-secondary,
+.button-danger {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-secondary {
+  background-color: #fbbc05;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #f9ab00;
+}
+
+.button-danger {
+  background-color: #ea4335;
+  color: #fff;
+}
+
+.button-danger:hover {
+  background-color: #d93025;
+}
+
+/* Utility Styles */
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
